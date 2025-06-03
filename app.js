@@ -11,6 +11,7 @@ const RoadmapRoute = require("./routes/roadmapsRoute");
 const reviewInteractionRoute = require('./routes/reviewInteractionRoute');
 const Place = require('./models/Place');
 const user_shown_placesRoute = require('./routes/user_shown_placesRoute');
+
 require("dotenv").config();
 
 const app = express();
